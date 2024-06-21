@@ -1,10 +1,10 @@
 [Hospital]
 API_LEVEL=hospital
-HOSPCODE=00000
+HOSPCODE=10792
 
 [API]
 PORT=3004
-HOST=0.0.0.0
+HOST=222.110.10.190
 ROUTE_PREFIX=
 START_TOOL=pm2
 PM2_NAME=his-connect
@@ -25,12 +25,12 @@ SSL_CRT=public/ssl/localhost.crt
 [HIS DB]
 HIS_PROVIDER=hosxpv3
 HIS_DB_CLIENT=mysql
-HIS_DB_HOST=localhost
+HIS_DB_HOST=222.110.10.250
 HIS_DB_PORT=3306
 HIS_DB_SCHEMA=public
-HIS_DB_NAME=db
-HIS_DB_USER="user"
-HIS_DB_PASSWORD="password"
+HIS_DB_NAME=hos
+HIS_DB_USER="sa"
+HIS_DB_PASSWORD="sa"
 HIS_DB_CHARSET=utf8
 HIS_DB_ENCRYPT=true
 MAX_CONNECTION_PER_MINUTE=10000
@@ -51,8 +51,8 @@ IS_AUTO_SEND_EVERY_HOUR=0
 IS_URL=https://connect.moph.go.th/is-api
 
 #User from https://connect.moph.go.th/pher-plus/#/login
-IS_MOPH_USER="??"
-IS_MOPH_PASSWORD="??"
+IS_MOPH_USER="metha.saha@gmail.com"
+IS_MOPH_PASSWORD="Tong@2319"
 
 [nRefer]
 NREFER_API_URL="https://nrefer.moph.go.th/apis"
